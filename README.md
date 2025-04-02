@@ -2,7 +2,7 @@ Título del Proyecto
 CRUD Flask con MySQL
 
 Comenzando 🚀
-Este proyecto es una aplicación básica de CRUD (Create, Read, Update, Delete) desarrollada con Flask y MySQL.el profesor juan pablo gimenez nos pidio hcaer el mismo proyecto pero cambiando mongodb por mysql.
+Este proyecto es una aplicación básica de CRUD (Create, Read, Update, Delete) desarrollada con Flask y MySQL.el profesor juan pablo gimenez nos pidio hacer el mismo proyecto pero cambiando mongodb por mysql.
 
 Mira Deployment para conocer como desplegar el proyecto.
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt.
 si no sabes
 
 Ejecutando las pruebas ⚙️
-es importante realizar todas las pruebas que sean necesarias para que todo salga nien ala hora de exponer tu proyecto.
+es importante realizar todas las pruebas que sean necesarias para que todo salga bien ala hora de exponer tu proyecto.
 
 Analice las pruebas end-to-end 🔩
 estas pruebas verifican que todo lo que tiene la aplicacion funcione correctamente y no salga ningun error.
