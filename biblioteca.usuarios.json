@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "67db14f2d484a7da7c938c88"
+  },
+  "nombre": "Frank Tabares",
+  "email": "frank@prueba.com",
+  "telefono": "2345678"
+},
+{
+  "_id": {
+    "$oid": "67ed7ad0fe7199e2d0e28ff3"
+  },
+  "nombre": "juan pablo",
+  "email": "lucho@example.com",
+  "telefono": "53637333"
+},
+{
+  "_id": {
+    "$oid": "67ed7e8efe7199e2d0e28ff4"
+  },
+  "nombre": "salome abares",
+  "email": "salo@example.com",
+  "telefono": "367276377"
+}]

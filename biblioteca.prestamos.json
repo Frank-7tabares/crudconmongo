@@ -1,0 +1,11 @@
+[{
+  "_id": 1,
+  "usuario_id": 1,
+  "ejemplar_id": 1,
+  "fecha_prestamo": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "fecha_devolucion": {
+    "$date": "2023-10-15T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,12 @@
+[{
+  "_id": 1,
+  "titulo": "El Principito",
+  "autor": "Antoine de Saint-Exupéry",
+  "año": 1943
+},
+{
+  "_id": 2,
+  "titulo": "Cien Años de Soledad",
+  "autor": "Gabriel García Márquez",
+  "año": 1967
+}]
