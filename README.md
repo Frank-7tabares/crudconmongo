@@ -1,12 +1,12 @@
-Título del Proyecto
-CRUD Flask con MySQL
+# **CRUD Flask con MySQL**
 
-Comenzando 🚀
+
+## **Comenzando 🚀** 
 Este proyecto es una aplicación básica de CRUD (Create, Read, Update, Delete) desarrollada con Flask y MySQL.el profesor juan pablo gimenez nos pidio hacer el mismo proyecto pero cambiando mongodb por mysql.
 
 Mira Deployment para conocer como desplegar el proyecto.
 
-Pre-requisitos 📋
+## **Pre-requisitos 📋**
 Python 3.7 o superior
 MySQL instalado y en ejecución (local o remoto)
 Pip (gestor de paquetes de Python)
@@ -16,7 +16,7 @@ Clonar el repositorio:
 git clone [url-del-repositorio]
 cd [nombre-del-directorio].
 
-Instalación 🔧
+## **Instalación 🔧** 
 python -m venv venv
 source venv/bin/activate # Linux/Mac
 venv\Scripts\activate # Windows.
