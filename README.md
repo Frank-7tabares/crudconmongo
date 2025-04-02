@@ -1,7 +1,12 @@
+Título del Proyecto
 CRUD Flask con MySQL
+
+Comenzando 🚀
 Este proyecto es una aplicación básica de CRUD (Create, Read, Update, Delete) desarrollada con Flask y MySQL.el profesor juan pablo gimenez nos pidio hcaer el mismo proyecto pero cambiando mongodb por mysql.
 
-Requisitos previos
+Mira Deployment para conocer como desplegar el proyecto.
+
+Pre-requisitos 📋
 Python 3.7 o superior
 MySQL instalado y en ejecución (local o remoto)
 Pip (gestor de paquetes de Python)
@@ -11,20 +16,45 @@ Clonar el repositorio:
 git clone [url-del-repositorio]
 cd [nombre-del-directorio].
 
-2.Crear y activar un entorno virtual.
+Instalación 🔧
 python -m venv venv
 source venv/bin/activate # Linux/Mac
 venv\Scripts\activate # Windows.
-
-3.Instalar las dependencias.
 pip install -r requirements.txt.
 
-Configuración.
-Renombrar el archivo .env.example a .env.
-DB_HOST=localhost # Host de la base de datos
-DB_USER=root # Usuario de MySQL
-DB_PASSWORD=password # Contraseña de MySQL
-DB_NAME=flask_crud # Nombre de la base de datos
+si no sabes
+
+Ejecutando las pruebas ⚙️
+es importante realizar todas las pruebas que sean necesarias para que todo salga nien ala hora de exponer tu proyecto.
+
+Analice las pruebas end-to-end 🔩
+estas pruebas verifican que todo lo que tiene la aplicacion funcione correctamente y no salga ningun error.
+
+Da un ejemplo
+Y las pruebas de estilo de codificación ⌨️
+Explica que verifican estas pruebas y por qué
+
+Da un ejemplo
+Despliegue 📦
+Agrega notas adicionales sobre como hacer deploy
+
+Construido con 🛠️
+visual studio code heidi xammp
+
+Dropwizard - El framework web usado
+Maven - Manejador de dependencias
+ROME - Usado para generar RSS
+Contribuyendo 🖇️
+Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+
+Wiki 📖
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra Wiki
+
+Versionado 📌
+Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
+
+Autores ✒️
+frank-deepseek
 
 Estructura del proyecto.
 /proyecto
@@ -39,7 +69,6 @@ Estructura del proyecto.
 │ └── index.html # Lista de elementos
 ├── requirements.txt # Dependencias
 └── .env # Variables de entorno
-
 Uso
 CREATE DATABASE flask_crud;
 python app.py
@@ -59,12 +88,11 @@ POST /edit/ - Actualizar elemento existente
 GET /delete/ - Eliminar elemento
 
 Tecnologías utilizadas.
-Flask - Framework web Python
-
 MySQL - Sistema de gestión de bases de datos relacional
 
 Flask-MySQLdb - Conector MySQL para Flask.
 
-Licencia.
+
+Licencia 📄
 Flask==2.0.1
 Flask-MySQLdb==2.0.0
